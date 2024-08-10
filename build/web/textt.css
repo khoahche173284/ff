@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color:#e7e6e1;
+}
+
+.container {
+    background-color:#faf7fa;
+    display: flex;
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(78, 78, 78, 0.5);
+    
+}
+
+.editor {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    box-shadow: 0 0 10px rgba(78, 78, 78, 0.5);
+}
+
+
+textarea:focus {
+    outline: none; 
+    border: 1px solid #a0b39f; 
+}
+main button{
+    color : #fff;
+    border: 0px solid rgb(39, 161, 226);
+    border-radius: 5px;
+    background-color: rgb(39, 161, 226);
+    width: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0 0 5px rgba(156, 156, 156, 0.5);
+}
+.save:hover{
+    background-color: #ee5bf4;
+    width: 110px;
+    
+    border-radius: 40px;
+}
+.mess{
+    margin-left: 10px;
+}
+
+header {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    
+}
+header input{
+    font-size: 15px;
+    background-color: #eeecec;
+    border: 1px solid #eeecec;
+    
+    transition: 0.5s;
+}
+header input :hover{
+    cursor: pointer;
+    padding: 10px;
+    background-color: #efeeee;
+    border-radius: 10px;
+    width: max-content;
+   
+}
+
+.textarea-container {
+  padding: 10px;
+    
+}
+
+textarea {
+    flex: 1;
+    width: 100%;
+    height: 60vh;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.logo p{
+    padding: 6px;
+}
+.logo img{
+    
+    border-radius: 20px;
+    cursor: pointer;
+    width: 40px;
+    height: 30px;
+    
+    transition: 0.5s;
+}
+.logo img:hover{
+   
+    border-radius: 20px;
+    width: 55px;
+    height: 40px;
+}
+.sidebar {
+    flex: 1;
+    border-left: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.category{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #eeecec;
+    border: 1px solid #eeecec;
+}
+.save{
+    
+    margin: 10px;
+    height: 30px;
+    border-radius: 20px;
+}
+.fix {
+    margin: 30px;
+    border-radius: 5px;
+    width: 35vw;
+    height: 13vh; /* Đặt chiều cao cố định */
+    overflow: auto; /* Kích hoạt thanh trượt */
+    border: 1px solid #ccc;
+    padding-bottom: 20px; 
+}
+.fix p{
+   
+     /* Đặt chiều cao cố định */
+  /* Kích hoạt thanh trượt */
+   
+    padding: 10px; 
+}
+h3{
+    margin-left: 30px;
+    color :rgb(66, 64, 64);
+}
+.text-area{
+
+    
+}
+.accept{
+    padding: 10px;
+    color : #fff;
+    border-radius: 5px;
+    margin:  0px 30px 30px 30px;
+    background-color: rgb(11, 182, 182);
+    border: 1px solid #cccccc00;
+    box-shadow: 0 0 5px rgba(156, 156, 156, 0.5);
+    cursor: pointer;
+}
+.accept:hover{
+    
+    background-color: rgb(9, 134, 134);
+    
+}
+.sidebar div {
+    margin-bottom: 20px;
+}
+.container-fix{
+    border-bottom: 1px solid rgb(197, 195, 195);
+}
+
+h1, h2 {
+    color :rgb(100, 97, 97);
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+p {
+    color :rgb(92, 89, 89);
+    margin: 0;
+}
